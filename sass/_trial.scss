@@ -1,0 +1,57 @@
+
+.trial-plan__button {
+  width: 127px;
+  height: 40px;
+  border: 2px solid #3D8F85;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3D8F85;
+  background-color: $white-color;
+  &:hover {
+    background-color: $green-color;
+    color: $white-color;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+  }
+}
+.annual-plan__price{
+  span{
+    font-size: 10px;
+    color: #333333;
+    margin-right: 7px;
+    font-family: OpenSans-Regular;
+  }
+}
+.trial-header__img{
+  width: 83px;
+  height: 94px;
+  background: transparent url(../img/trial.svg) 0 0 no-repeat padding-box;
+}
+.trial-header{
+  width: 533px;
+  height: 41px;
+  background-color: $green-color;
+  border-radius: 7px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  .trial-header__title{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: $white-color;
+    font-family: OpenSans-Bold;
+    text-transform: uppercase;
+  }
+  ul{
+    display: flex;
+    li{
+      color: $white-color;
+    }
+  }
+  .trial-header__time{
+    opacity: 0.7;
+
+  }
+}
